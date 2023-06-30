@@ -1,0 +1,152 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.clock
+{
+    width:300px;
+    height: 300px;
+    background-color: rgb(46, 46, 46);
+    border: 5px solid rgb(136, 135, 135);
+   border-radius: 50%;
+   position: relative;
+   top: 150px;
+}
+
+.point
+{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
+
+.hour
+{
+    font-size:20px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    /* position: absolute; */
+}
+
+.hour-1
+{
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+}
+.hour-2
+{
+    position: absolute;
+    bottom: 45px;
+    left: 115px;
+}
+.hour-3
+{
+    position: absolute;
+    left: 122px;
+}
+.hour-4
+{
+    position: absolute;
+    top: 60px;
+    left: 110px;
+}
+.hour-5
+{
+    position: absolute;
+    top: 108px;
+    left: 60px;
+}
+.hour-6
+{
+    position: absolute;
+    top: 120px;
+}
+.hour-7
+{
+    position: absolute;
+    top: 104px;
+    right: 60px;
+}
+.hour-8
+{
+    position: absolute;
+    top: 60px;
+    right: 104px;
+}
+.hour-9
+{
+    position: absolute;
+    top: 0;
+    right: 120px;
+}
+.hour-10
+{
+    position: absolute;
+    bottom: 40px;
+    right: 108px;
+}
+.hour-11
+{
+    position: absolute;
+    bottom: 100px;
+    right: 68px;
+}
+.hour-12
+{
+    position: absolute;
+    bottom: 120px;
+    right: 0px;
+}
+
+
+.hand
+{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+.hand i
+{
+position: absolute;
+background-color: rgb(220, 33, 33);
+width: 4px;
+height: 50px;
+border-radius: px;
+}
+
+.hand .h
+{
+position: absolute;
+background-color: rgb(28, 21, 229);
+width: 4px;
+height: 80px;
+border-radius: px;
+}
+
+
+.hand .h1
+{
+position: absolute;
+background-color: white;
+width: 4px;
+height: 90px;
+border-radius: px;
+}
